@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Plugins */
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+html {
+  direction: rtl;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+body {
+  font-family: "Almarai", sans-serif;
+  background-color: #0b0615;
+  color: white;
+}
+
+.green {
+  color: #15ff00;
+}
